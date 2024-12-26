@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TurboScratch",
+  "version": "1.0.0",
+  "description": "Runs TurboWarp on Scratch!",
+  "icons": {
+    "200": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://scratch.mit.edu/projects/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
